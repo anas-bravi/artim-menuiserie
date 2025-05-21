@@ -1,0 +1,2 @@
+(function($){"use strict";$(document).ready(function(){$(document).on('click','.back-to-top',function(){$("html,body").animate({scrollTop:0});return!1})});$(window).on('load',function(){var preLoder=$(".preloader");preLoder.fadeOut(0);var backtoTop=$('.back-to-top')
+backtoTop.fadeOut();$(document).on('click','.cancel-preloader a',function(e){e.preventDefault();$("#preloader").fadeOut(2000)})})})(jQuery)
